@@ -5,7 +5,7 @@ https://github.com/gkvoelkl/python-sonic
 """
 from psonic import *
 import random
-from DrumBot.drumbot import DrumBot
+from drumbot.pythonic_drumbot.drumbot_py import DrumBot
 from threading import Thread, Condition, Event
 
 # Initialize DrumBot!

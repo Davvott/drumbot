@@ -5,12 +5,13 @@ https://github.com/gkvoelkl/python-sonic
 """
 from psonic import *
 import random
-from .drumbot import DrumBot
+from drumbot.pythonic_drumbot import drumbot_py
 
 # Initialize DrumBot!
-drumbot = DrumBot()
+drumbot = drumbot_py.DrumBot()
 print(drumbot)
 
+# ------->>> NO SOUND? RUN SONIC PI ! <<<--------
 
 
 def main():
